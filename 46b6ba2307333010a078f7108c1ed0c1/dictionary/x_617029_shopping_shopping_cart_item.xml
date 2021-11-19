@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Shopping Cart Item" max_length="40" name="x_617029_shopping_shopping_cart_item" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Article Description" max_length="160" name="article_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Order Unit" max_length="40" name="order_unit" type="integer"/>
+        <element label="Quantity" max_length="15" name="quantity" type="decimal"/>
+    </element>
+</database>
